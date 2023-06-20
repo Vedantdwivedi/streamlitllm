@@ -17,7 +17,7 @@ st.set_page_config(page_title="HugChat - An LLM-powered Streamlit app")
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 HugChat App')
+    st.title('🤗💬 Generative AI App')
     st.markdown('''
     ## About
     This app is an LLM-powered chatbot built using:
@@ -25,18 +25,18 @@ with st.sidebar:
     - [HugChat](https://github.com/Soulter/hugging-chat-api)
     - [OpenAssistant/oasst-sft-6-llama-30b-xor](https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b-xor) LLM model
     
-    💡 Note: No API key required!
+    💡 Note: No API key required, but yes the Huggingchat authentication is required
     ''')
     add_vertical_space(5)
-    st.write('Made with ❤️ by [Data Professor](https://youtube.com/dataprofessor)')
+    st.write('Made with ❤️ by SomVeda')
 
 # Generate empty lists for generated and past.
 ## generated stores AI generated responses
 if 'generated' not in st.session_state:
-    st.session_state['generated'] = ["I'm HugChat, How may I help you?"]
+    st.session_state['generated'] = ["I'm SomVeda, How may I help you?"]
 ## past stores User's questions
 if 'past' not in st.session_state:
-    st.session_state['past'] = ['Hi!']
+    st.session_state['past'] = ['Hey!']
 
 # Layout of input/response containers
 input_container = st.container()
