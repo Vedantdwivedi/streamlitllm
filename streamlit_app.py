@@ -3,6 +3,15 @@ from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
 from hugchat import hugchat
+from hugchat.login import Login
+
+# Log in to huggingface and grant authorization to huggingchat
+sign = Login(vedant.dwivedi55@gmail.com, Huggingface@0731)
+cookies = sign.login()
+
+# Save cookies to usercookies/<email>.json
+sign.saveCookies()
+
 
 st.set_page_config(page_title="HugChat - An LLM-powered Streamlit app")
 
