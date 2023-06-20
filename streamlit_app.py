@@ -6,7 +6,7 @@ from hugchat import hugchat
 from hugchat.login import Login
 
 # Log in to huggingface and grant authorization to huggingchat
-sign = Login(vedant.dwivedi55@gmail.com, Huggingface@0731)
+sign = Login("vedant.dwivedi55@gmail.com", "Huggingface@0731")
 cookies = sign.login()
 
 # Save cookies to usercookies/<email>.json
