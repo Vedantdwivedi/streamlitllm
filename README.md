@@ -1,4 +1,4 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Streamlit App Starter Kit - Vedant Dwivedi
 ```
 ⬆️ (Replace above with your app's name)
 ```
