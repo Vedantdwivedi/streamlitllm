@@ -10,7 +10,7 @@ sign = Login("vedant.dwivedi55@gmail.com", "Huggingface@0731")
 cookies = sign.login()
 
 # Save cookies to usercookies/<email>.json
-sign.saveCookies()
+#sign.saveCookies()
 
 
 st.set_page_config(page_title="HugChat - An LLM-powered Streamlit app")
